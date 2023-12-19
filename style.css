@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #3a3636;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  background-color: #c29393;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+
+}
+.clock{
+  color: white;
+}
+button{
+  background-color: #c29393;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
